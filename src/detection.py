@@ -21,7 +21,7 @@ def chercher_procedures(sig: Signal, base: dict) -> list:
 
 def evaluer(sig: Signal, nb_echecs: int = 0) -> str:
     if sig.type == "LOGIN_ECHEC":
-        return "CRITIQUE" if nb_echecs > 100 else "MOYENNE"
+        return "CRITIQUE" if nb_echecs >= 5 else "MOYENNE"
     return sig.gravite
 
 
