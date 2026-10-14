@@ -22,4 +22,6 @@ def test_chercher_procedures(self):
         self.assertEqual(chercher_procedures(s, PROCEDURES),
                          [PROCEDURES["login"]])
         self.assertEqual(chercher_procedures(sig(), PROCEDURES), [])
-        
+def test_evaluer_gravite_signal(self):
+        self.assertEqual(evaluer(sig("FAILLE", "ELEVEE")), "ELEVEE")
+
