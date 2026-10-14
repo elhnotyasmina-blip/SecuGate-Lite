@@ -1,12 +1,11 @@
 ## Équipe
 
+- Étudiant A : agent Collecte :  Yasmina Elhnot 
 
+- Étudiant B : agent Détection :   Insaf Hamdane
 
-- Étudiant A : agent Collecte :  Elhnot Yasmina
-
-- Étudiant B : agent Détection :  Hamdane Insaf
-
-- Étudiant C : agent Alerte : Randriaparany Voary luciano
+***
+- Étudiant C : agent Alerte :  Voary luciano Randriaparany
 
 
 ######
